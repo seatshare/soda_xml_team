@@ -1,11 +1,17 @@
 require 'test/unit'
 require 'soda_xml_team'
+require 'openssl'
 
 # Disable cert validation for tests
-require 'openssl'
 OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
 
 class SodaXmlTeamTest < Test::Unit::TestCase
+
+  def setup
+    if ENV['SODA_USERNAME'].nil? || ENV['SODA_PASSWORD'].nil?
+      raise "Must provide a SOAP_USERNAME and SOAP_PASSWORD environment variable to run tests."
+    end
+  end
 
   def test_get_listing
     soda = SodaXmlTeam::Client.new(ENV['SODA_USERNAME'], ENV['SODA_PASSWORD'])

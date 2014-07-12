@@ -20,6 +20,9 @@ Gem::Specification.new do |s|
   s.homepage    = 'http://rubygems.org/gems/soda_xml_team'
   s.license     = 'MIT'
 
-  s.add_dependency 'nokogiri'
-  s.add_dependency 'httparty'
+  s.add_development_dependency "bundler", "~> 1.3"
+  s.add_development_dependency "rake", "~> 0"
+
+  s.add_dependency "nokogiri", "~> 1.6", ">= 1.6.2"
+  s.add_dependency "httparty", "~> 0.13", ">= 0.13"
 end
