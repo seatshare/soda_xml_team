@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.test_files = s.files.grep(%r{^(test|spec|features)/})
   s.require_paths = ["lib"]
 
-  s.homepage    = 'http://rubygems.org/gems/soda_xml_team'
+  s.homepage    = 'https://github.com/seatshare/soda_xml_team'
   s.license     = 'MIT'
 
   s.add_development_dependency "bundler", "~> 1.3"
