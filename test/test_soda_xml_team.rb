@@ -2,9 +2,6 @@ require 'test/unit'
 require 'soda_xml_team'
 require 'openssl'
 
-# Disable cert validation for tests
-OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
-
 class SodaXmlTeamTest < Test::Unit::TestCase
 
   def setup

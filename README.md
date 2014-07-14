@@ -1,5 +1,7 @@
 # SODA XML Team Gem
 
+[![Build Status](https://travis-ci.org/seatshare/soda_xml_team.png)](https://travis-ci.org/seatshare/soda_xml_team)
+
 This gem serves as an interface to the [SODA (Sports On Demand API) from XML Team](http://www.xmlteam.com/soda/). It uses [HTTParty](http://johnnunemaker.com/httparty/) and [Nokogiri](http://nokogiri.org/) to retrieve and parse the data.
 
 ## Get a list of documents
