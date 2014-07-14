@@ -1,0 +1,2234 @@
+<?xml version="1.0"?>
+<xts:sports-content-set xmlns:xts="http://www.xmlteam.com" query-date-time="20140713T235440-0400" query-string="https://soda.xmlteam.com/api-trial/getDocuments?doc-ids=xt.10875359-nas-sked" hostname="soda.xmlteam.com" result-count="1" error-count="0" elapsed-time="12.2ms"><sports-content xmlns:str="java.lang.String" xmlns:dt="http://xsltsl.org/date-time" xmlns:exsl="http://exslt.org/common" path-id="ice-hockey/l.nhl.com/schedules/xt.10875359-nas-sked" xts:systemid="nhlteamschedulexml" xts:tsnid="10875359">
+  <sports-metadata xmlns:fs="java.io.File" date-time="20100214T161400-0500" doc-id="xt.10875359-nas-sked" xts:tsnslug="ADX%NAS-SKED" language="en-US" revision-id="xt.10875359-nas-sked" fixture-key="schedule-single-team" document-class="schedules" fixture-name="Single Team Schedule">
+    <sports-title>2010 Nashville Predators Schedule</sports-title>
+    <sports-content-codes>
+      <sports-content-code code-name="The Sports Network" code-key="sportsnetwork.com" code-type="publisher"/>
+      <sports-content-code code-name="XML Team Solutions, Inc." code-key="xmlteam.com" code-type="distributor"/>
+      <sports-content-code code-type="sport" code-key="15031000" code-name="Ice Hockey"/>
+      <sports-content-code code-type="league" code-key="l.nhl.com" code-name="National Hockey League"/>
+      <sports-content-code code-type="season-type" code-key="regular"/>
+      <sports-content-code code-type="season" code-key="2009"/>
+      <sports-content-code code-type="priority" code-key="normal"/>
+      <sports-content-code code-type="conference" code-key="c.western" code-name="Western"/>
+      <sports-content-code code-type="team" code-key="l.nhl.com-t.19" code-name="Nashville Predators"/>
+    </sports-content-codes>
+  </sports-metadata>
+  <schedule content-label="NHL">
+    <schedule-metadata team-coverage="single-team" date-coverage-type="season" date-coverage-value="2009" competition-scope="league"/>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.11616" date-coverage-value="l.nhl.com-2009-e.11616" event-status="post-event" event-name="" event-number="0" start-date-time="20091003T200000-0400" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-TN, FSN-SW">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-TN, FSN-SW"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="American_Airlines_Center">
+            <name full="American Airlines Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="away">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="3" event-outcome="win"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.21" alignment="home">
+          <name first="Dallas" last="Stars"/>
+        </team-metadata>
+        <team-stats score="2" event-outcome="loss"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.11675" date-coverage-value="l.nhl.com-2009-e.11675" event-status="post-event" event-name="" event-number="0" start-date-time="20091008T200000-0400" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="ALT, FSN-TN">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="ALT, FSN-TN"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Sommet_Center">
+            <name full="Sommet Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.27" alignment="away">
+          <name first="Colorado" last="Avalanche"/>
+        </team-metadata>
+        <team-stats score="2" event-outcome="loss"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="home">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="3" event-outcome="win"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.11726" date-coverage-value="l.nhl.com-2009-e.11726" event-status="post-event" event-name="" event-number="0" start-date-time="20091010T200000-0400" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="MSG">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="MSG"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Sommet_Center">
+            <name full="Sommet Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.12" alignment="away">
+          <name first="Buffalo" last="Sabres"/>
+        </team-metadata>
+        <team-stats score="1" event-outcome="win"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="home">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="loss"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.11748" date-coverage-value="l.nhl.com-2009-e.11748" event-status="post-event" event-name="" event-number="0" start-date-time="20091012T200000-0400" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-TN">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-TN"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Sommet_Center">
+            <name full="Sommet Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.29" alignment="away">
+          <name first="Edmonton" last="Oilers"/>
+        </team-metadata>
+        <team-stats score="6" event-outcome="win"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="home">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="1" event-outcome="loss"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.11764" date-coverage-value="l.nhl.com-2009-e.11764" event-status="post-event" event-name="" event-number="0" start-date-time="20091014T203000-0400" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-TN, FSN-SW">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-TN, FSN-SW"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="American_Airlines_Center">
+            <name full="American Airlines Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="away">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="loss"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.21" alignment="home">
+          <name first="Dallas" last="Stars"/>
+        </team-metadata>
+        <team-stats score="6" event-outcome="win"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.11773" date-coverage-value="l.nhl.com-2009-e.11773" event-status="post-event" event-name="" event-number="0" start-date-time="20091015T200000-0400" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="CSN-CHI, FSN-TN">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="CSN-CHI, FSN-TN"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Sommet_Center">
+            <name full="Sommet Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.16" alignment="away">
+          <name first="Chicago" last="Blackhawks"/>
+        </team-metadata>
+        <team-stats score="3" event-outcome="win"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="home">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="1" event-outcome="loss"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.11805" date-coverage-value="l.nhl.com-2009-e.11805" event-status="post-event" event-name="" event-number="0" start-date-time="20091017T190000-0400" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="CSN-DC">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="CSN-DC"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Verizon_Center">
+            <name full="Verizon Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="away">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="2" event-outcome="loss"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.8" alignment="home">
+          <name first="Washington" last="Capitals"/>
+        </team-metadata>
+        <team-stats score="3" event-outcome="win"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.11839" date-coverage-value="l.nhl.com-2009-e.11839" event-status="post-event" event-name="" event-number="0" start-date-time="20091021T190000-0400" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-TN, NESN">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-TN, NESN"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="TD_Banknorth_Garden">
+            <name full="TD Banknorth Garden"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="away">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="2" event-outcome="loss"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.11" alignment="home">
+          <name first="Boston" last="Bruins"/>
+        </team-metadata>
+        <team-stats score="3" event-outcome="win"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.11864" date-coverage-value="l.nhl.com-2009-e.11864" event-status="post-event" event-name="" event-number="0" start-date-time="20091022T193000-0400" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-TN, SNET-E">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-TN, SNET-E"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Scotiabank_Place">
+            <name full="Scotiabank Place"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="away">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="6" event-outcome="win"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.14" alignment="home">
+          <name first="Ottawa" last="Senators"/>
+        </team-metadata>
+        <team-stats score="5" event-outcome="loss"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.11908" date-coverage-value="l.nhl.com-2009-e.11908" event-status="post-event" event-name="" event-number="0" start-date-time="20091024T203000-0400" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="WGN">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="WGN"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="United_Center">
+            <name full="United Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="away">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="loss"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.16" alignment="home">
+          <name first="Chicago" last="Blackhawks"/>
+        </team-metadata>
+        <team-stats score="2" event-outcome="win"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.11964" date-coverage-value="l.nhl.com-2009-e.11964" event-status="post-event" event-name="" event-number="0" start-date-time="20091028T200000-0400" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-N">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-N"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Xcel_Energy_Center">
+            <name full="Xcel Energy Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="away">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="4" event-outcome="win"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.30" alignment="home">
+          <name first="Minnesota" last="Wild"/>
+        </team-metadata>
+        <team-stats score="3" event-outcome="loss"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.11976" date-coverage-value="l.nhl.com-2009-e.11976" event-status="post-event" event-name="" event-number="0" start-date-time="20091029T200000-0400" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="CSN-CHI, FSN-TN">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="CSN-CHI, FSN-TN"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Sommet_Center">
+            <name full="Sommet Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.16" alignment="away">
+          <name first="Chicago" last="Blackhawks"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="loss"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="home">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="2" event-outcome="win"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.12015" date-coverage-value="l.nhl.com-2009-e.12015" event-status="post-event" event-name="" event-number="0" start-date-time="20091031T200000-0400" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="KDFI">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="KDFI"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Sommet_Center">
+            <name full="Sommet Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.21" alignment="away">
+          <name first="Dallas" last="Stars"/>
+        </team-metadata>
+        <team-stats score="2" event-outcome="loss"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="home">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="4" event-outcome="win"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.12163" date-coverage-value="l.nhl.com-2009-e.12163" event-status="post-event" event-name="" event-number="0" start-date-time="20091105T220000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-TN, FSN-PT">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-TN, FSN-PT"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Honda_Center">
+            <name full="Honda Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="away">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="loss"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.22" alignment="home">
+          <name first="Anaheim" last="Ducks"/>
+        </team-metadata>
+        <team-stats score="4" event-outcome="win"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.12188" date-coverage-value="l.nhl.com-2009-e.12188" event-status="post-event" event-name="" event-number="0" start-date-time="20091107T160000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value=""/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Staples_Center">
+            <name full="Staples Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="away">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="3" event-outcome="win"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.23" alignment="home">
+          <name first="Los Angeles" last="Kings"/>
+        </team-metadata>
+        <team-stats score="1" event-outcome="loss"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.12227" date-coverage-value="l.nhl.com-2009-e.12227" event-status="post-event" event-name="" event-number="0" start-date-time="20091110T223000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="NHL-CAN, FSN-TN, CSN-CA">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="NHL-CAN, FSN-TN, CSN-CA"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="HP_Pavilion">
+            <name full="HP Pavilion"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="away">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="3" event-outcome="loss"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.24" alignment="home">
+          <name first="San Jose" last="Sharks"/>
+        </team-metadata>
+        <team-stats score="4" event-outcome="win"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.12260" date-coverage-value="l.nhl.com-2009-e.12260" event-status="post-event" event-name="" event-number="0" start-date-time="20091112T200000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-TN, FSN-MW">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-TN, FSN-MW"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Scottrade_Center">
+            <name full="Scottrade Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="away">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="3" event-outcome="win"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.18" alignment="home">
+          <name first="St. Louis" last="Blues"/>
+        </team-metadata>
+        <team-stats score="1" event-outcome="loss"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.12299" date-coverage-value="l.nhl.com-2009-e.12299" event-status="post-event" event-name="" event-number="0" start-date-time="20091114T200000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="RDS">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="RDS"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Sommet_Center">
+            <name full="Sommet Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.13" alignment="away">
+          <name first="Montreal" last="Canadiens"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="loss"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="home">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="2" event-outcome="win"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.12345" date-coverage-value="l.nhl.com-2009-e.12345" event-status="post-event" event-name="" event-number="0" start-date-time="20091117T200000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value=""/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Sommet_Center">
+            <name full="Sommet Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.24" alignment="away">
+          <name first="San Jose" last="Sharks"/>
+        </team-metadata>
+        <team-stats score="3" event-outcome="loss"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="home">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="4" event-outcome="win"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.12382" date-coverage-value="l.nhl.com-2009-e.12382" event-status="post-event" event-name="" event-number="0" start-date-time="20091119T200000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="MSG+, FSN-TN">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="MSG+, FSN-TN"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Sommet_Center">
+            <name full="Sommet Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.1" alignment="away">
+          <name first="New Jersey" last="Devils"/>
+        </team-metadata>
+        <team-stats score="2" event-outcome="loss"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="home">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="3" event-outcome="win"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.12422" date-coverage-value="l.nhl.com-2009-e.12422" event-status="post-event" event-name="" event-number="0" start-date-time="20091121T200000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-OH">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-OH"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Sommet_Center">
+            <name full="Sommet Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.20" alignment="away">
+          <name first="Columbus" last="Blue Jackets"/>
+        </team-metadata>
+        <team-stats score="3" event-outcome="loss"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="home">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="4" event-outcome="win"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.12436" date-coverage-value="l.nhl.com-2009-e.12436" event-status="post-event" event-name="" event-number="0" start-date-time="20091123T190000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="Versus, TSN2">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="Versus, TSN2"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Sommet_Center">
+            <name full="Sommet Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.17" alignment="away">
+          <name first="Detroit" last="Red Wings"/>
+        </team-metadata>
+        <team-stats score="1" event-outcome="loss"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="home">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="3" event-outcome="win"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.12480" date-coverage-value="l.nhl.com-2009-e.12480" event-status="post-event" event-name="" event-number="0" start-date-time="20091125T210000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-TV, ALT">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-TV, ALT"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Pepsi_Center">
+            <name full="Pepsi Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="away">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="4" event-outcome="win"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.27" alignment="home">
+          <name first="Colorado" last="Avalanche"/>
+        </team-metadata>
+        <team-stats score="3" event-outcome="loss"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.12566" date-coverage-value="l.nhl.com-2009-e.12566" event-status="post-event" event-name="" event-number="0" start-date-time="20091127T200000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-MW, FSN-TN">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-MW, FSN-TN"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Sommet_Center">
+            <name full="Sommet Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.18" alignment="away">
+          <name first="St. Louis" last="Blues"/>
+        </team-metadata>
+        <team-stats score="3" event-outcome="win"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="home">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="1" event-outcome="loss"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.12580" date-coverage-value="l.nhl.com-2009-e.12580" event-status="post-event" event-name="" event-number="0" start-date-time="20091128T200000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-FL">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-FL"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Sommet_Center">
+            <name full="Sommet Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.10" alignment="away">
+          <name first="Florida" last="Panthers"/>
+        </team-metadata>
+        <team-stats score="1" event-outcome="loss"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="home">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="4" event-outcome="win"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.12603" date-coverage-value="l.nhl.com-2009-e.12603" event-status="post-event" event-name="" event-number="0" start-date-time="20091130T200000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="SNET-W">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="SNET-W"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Sommet_Center">
+            <name full="Sommet Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.28" alignment="away">
+          <name first="Calgary" last="Flames"/>
+        </team-metadata>
+        <team-stats score="5" event-outcome="win"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="home">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="loss"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.11410" date-coverage-value="l.nhl.com-2009-e.11410" event-status="post-event" event-name="" event-number="0" start-date-time="20091202T200000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-TN, KSTC">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-TN, KSTC"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Xcel_Energy_Center">
+            <name full="Xcel Energy Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="away">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="4" event-outcome="loss"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.30" alignment="home">
+          <name first="Minnesota" last="Wild"/>
+        </team-metadata>
+        <team-stats score="5" event-outcome="win"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.11471" date-coverage-value="l.nhl.com-2009-e.11471" event-status="post-event" event-name="" event-number="0" start-date-time="20091204T203000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-TN, CSN-CHI">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-TN, CSN-CHI"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="United_Center">
+            <name full="United Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="away">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="4" event-outcome="win"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.16" alignment="home">
+          <name first="Chicago" last="Blackhawks"/>
+        </team-metadata>
+        <team-stats score="1" event-outcome="loss"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.11521" date-coverage-value="l.nhl.com-2009-e.11521" event-status="post-event" event-name="" event-number="0" start-date-time="20091205T200000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-N">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-N"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Sommet_Center">
+            <name full="Sommet Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.30" alignment="away">
+          <name first="Minnesota" last="Wild"/>
+        </team-metadata>
+        <team-stats score="5" event-outcome="win"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="home">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="3" event-outcome="loss"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.11564" date-coverage-value="l.nhl.com-2009-e.11564" event-status="post-event" event-name="" event-number="0" start-date-time="20091208T200000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="SNET-P">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="SNET-P"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Sommet_Center">
+            <name full="Sommet Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.26" alignment="away">
+          <name first="Vancouver" last="Canucks"/>
+        </team-metadata>
+        <team-stats score="2" event-outcome="loss"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="home">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="4" event-outcome="win"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.11595" date-coverage-value="l.nhl.com-2009-e.11595" event-status="post-event" event-name="" event-number="0" start-date-time="20091210T200000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-OH, FSN-TN">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-OH, FSN-TN"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Sommet_Center">
+            <name full="Sommet Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.20" alignment="away">
+          <name first="Columbus" last="Blue Jackets"/>
+        </team-metadata>
+        <team-stats score="3" event-outcome="loss"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="home">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="4" event-outcome="win"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.11674" date-coverage-value="l.nhl.com-2009-e.11674" event-status="post-event" event-name="" event-number="0" start-date-time="20091212T200000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-DET+, FSN-TN">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-DET+, FSN-TN"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Sommet_Center">
+            <name full="Sommet Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.17" alignment="away">
+          <name first="Detroit" last="Red Wings"/>
+        </team-metadata>
+        <team-stats score="3" event-outcome="win"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="home">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="2" event-outcome="loss"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.11703" date-coverage-value="l.nhl.com-2009-e.11703" event-status="post-event" event-name="" event-number="0" start-date-time="20091214T190000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-TN, FSN-OH">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-TN, FSN-OH"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Nationwide_Arena">
+            <name full="Nationwide Arena"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="away">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="5" event-outcome="win"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.20" alignment="home">
+          <name first="Columbus" last="Blue Jackets"/>
+        </team-metadata>
+        <team-stats score="3" event-outcome="loss"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.11715" date-coverage-value="l.nhl.com-2009-e.11715" event-status="post-event" event-name="" event-number="0" start-date-time="20091215T200000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value=""/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Sommet_Center">
+            <name full="Sommet Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.7" alignment="away">
+          <name first="Tampa Bay" last="Lightning"/>
+        </team-metadata>
+        <team-stats score="4" event-outcome="loss"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="home">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="7" event-outcome="win"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.11762" date-coverage-value="l.nhl.com-2009-e.11762" event-status="post-event" event-name="" event-number="0" start-date-time="20091217T213000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-TN">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-TN"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Rexall_Place">
+            <name full="Rexall Place"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="away">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="6" event-outcome="win"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.29" alignment="home">
+          <name first="Edmonton" last="Oilers"/>
+        </team-metadata>
+        <team-stats score="3" event-outcome="loss"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.11806" date-coverage-value="l.nhl.com-2009-e.11806" event-status="post-event" event-name="" event-number="0" start-date-time="20091219T160000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-TN, SNET-W">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-TN, SNET-W"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Pengrowth_Saddledome">
+            <name full="Pengrowth Saddledome"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="away">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="5" event-outcome="win"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.28" alignment="home">
+          <name first="Calgary" last="Flames"/>
+        </team-metadata>
+        <team-stats score="3" event-outcome="loss"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.11883" date-coverage-value="l.nhl.com-2009-e.11883" event-status="post-event" event-name="" event-number="0" start-date-time="20091222T223000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-TN, SNET-P">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-TN, SNET-P"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="General_Motors_Place">
+            <name full="General Motors Place"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="away">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="1" event-outcome="loss"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.26" alignment="home">
+          <name first="Vancouver" last="Canucks"/>
+        </team-metadata>
+        <team-stats score="4" event-outcome="win"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.12001" date-coverage-value="l.nhl.com-2009-e.12001" event-status="post-event" event-name="" event-number="0" start-date-time="20091226T200000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="CSN-CHI, FSN-TN">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="CSN-CHI, FSN-TN"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Sommet_Center">
+            <name full="Sommet Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.16" alignment="away">
+          <name first="Chicago" last="Blackhawks"/>
+        </team-metadata>
+        <team-stats score="4" event-outcome="win"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="home">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="1" event-outcome="loss"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.12031" date-coverage-value="l.nhl.com-2009-e.12031" event-status="post-event" event-name="" event-number="0" start-date-time="20091227T190000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-TN, WGN">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-TN, WGN"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="United_Center">
+            <name full="United Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="away">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="4" event-outcome="loss"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.16" alignment="home">
+          <name first="Chicago" last="Blackhawks"/>
+        </team-metadata>
+        <team-stats score="5" event-outcome="win"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.12055" date-coverage-value="l.nhl.com-2009-e.12055" event-status="post-event" event-name="" event-number="0" start-date-time="20091229T200000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-TN, FSN-MW">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-TN, FSN-MW"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Scottrade_Center">
+            <name full="Scottrade Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="away">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="4" event-outcome="win"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.18" alignment="home">
+          <name first="St. Louis" last="Blues"/>
+        </team-metadata>
+        <team-stats score="3" event-outcome="loss"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.12092" date-coverage-value="l.nhl.com-2009-e.12092" event-status="post-event" event-name="" event-number="0" start-date-time="20091231T190000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-TN, FSN-OH">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-TN, FSN-OH"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Nationwide_Arena">
+            <name full="Nationwide Arena"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="away">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="2" event-outcome="win"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.20" alignment="home">
+          <name first="Columbus" last="Blue Jackets"/>
+        </team-metadata>
+        <team-stats score="1" event-outcome="loss"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.12145" date-coverage-value="l.nhl.com-2009-e.12145" event-status="post-event" event-name="" event-number="0" start-date-time="20100102T200000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value=""/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Sommet_Center">
+            <name full="Sommet Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.22" alignment="away">
+          <name first="Anaheim" last="Ducks"/>
+        </team-metadata>
+        <team-stats score="1" event-outcome="loss"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="home">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="3" event-outcome="win"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.12180" date-coverage-value="l.nhl.com-2009-e.12180" event-status="post-event" event-name="" event-number="0" start-date-time="20100105T200000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="SNET-W">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="SNET-W"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Sommet_Center">
+            <name full="Sommet Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.28" alignment="away">
+          <name first="Calgary" last="Flames"/>
+        </team-metadata>
+        <team-stats score="3" event-outcome="win"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="home">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="1" event-outcome="loss"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.12209" date-coverage-value="l.nhl.com-2009-e.12209" event-status="post-event" event-name="" event-number="0" start-date-time="20100107T200000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-CAR">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-CAR"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Sommet_Center">
+            <name full="Sommet Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.6" alignment="away">
+          <name first="Carolina" last="Hurricanes"/>
+        </team-metadata>
+        <team-stats score="2" event-outcome="loss"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="home">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="4" event-outcome="win"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.12256" date-coverage-value="l.nhl.com-2009-e.12256" event-status="post-event" event-name="" event-number="0" start-date-time="20100109T200000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="KDOC">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="KDOC"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Sommet_Center">
+            <name full="Sommet Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.22" alignment="away">
+          <name first="Anaheim" last="Ducks"/>
+        </team-metadata>
+        <team-stats score="3" event-outcome="win"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="home">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="2" event-outcome="loss"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.12279" date-coverage-value="l.nhl.com-2009-e.12279" event-status="post-event" event-name="" event-number="0" start-date-time="20100111T223000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-TN, SNET-P">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-TN, SNET-P"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="General_Motors_Place">
+            <name full="General Motors Place"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="away">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="3" event-outcome="win"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.26" alignment="home">
+          <name first="Vancouver" last="Canucks"/>
+        </team-metadata>
+        <team-stats score="2" event-outcome="loss"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.12309" date-coverage-value="l.nhl.com-2009-e.12309" event-status="post-event" event-name="" event-number="0" start-date-time="20100112T210000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-TN">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-TN"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Rexall_Place">
+            <name full="Rexall Place"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="away">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="5" event-outcome="win"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.29" alignment="home">
+          <name first="Edmonton" last="Oilers"/>
+        </team-metadata>
+        <team-stats score="3" event-outcome="loss"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.12334" date-coverage-value="l.nhl.com-2009-e.12334" event-status="post-event" event-name="" event-number="0" start-date-time="20100115T210000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-TN, SNET-W">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-TN, SNET-W"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Pengrowth_Saddledome">
+            <name full="Pengrowth Saddledome"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="away">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="1" event-outcome="win"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.28" alignment="home">
+          <name first="Calgary" last="Flames"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="loss"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.12381" date-coverage-value="l.nhl.com-2009-e.12381" event-status="post-event" event-name="" event-number="0" start-date-time="20100118T200000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="RIS, SNET-O, FSN-TN">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="RIS, SNET-O, FSN-TN"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Sommet_Center">
+            <name full="Sommet Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.15" alignment="away">
+          <name first="Toronto" last="Maple Leafs"/>
+        </team-metadata>
+        <team-stats score="4" event-outcome="win"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="home">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="3" event-outcome="loss"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.12468" date-coverage-value="l.nhl.com-2009-e.12468" event-status="post-event" event-name="" event-number="0" start-date-time="20100121T210000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-TN, AZ">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-TN, AZ"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Jobing.com_Arena">
+            <name full="Jobing.com Arena"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="away">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="2" event-outcome="loss"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.25" alignment="home">
+          <name first="Phoenix" last="Coyotes"/>
+        </team-metadata>
+        <team-stats score="4" event-outcome="win"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.12486" date-coverage-value="l.nhl.com-2009-e.12486" event-status="post-event" event-name="" event-number="0" start-date-time="20100122T210000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-TN, ALT">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-TN, ALT"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Pepsi_Center">
+            <name full="Pepsi Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="away">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="1" event-outcome="loss"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.27" alignment="home">
+          <name first="Colorado" last="Avalanche"/>
+        </team-metadata>
+        <team-stats score="2" event-outcome="win"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.12521" date-coverage-value="l.nhl.com-2009-e.12521" event-status="post-event" event-name="" event-number="0" start-date-time="20100126T190000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-TN, FSN-OH">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-TN, FSN-OH"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Nationwide_Arena">
+            <name full="Nationwide Arena"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="away">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="2" event-outcome="loss"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.20" alignment="home">
+          <name first="Columbus" last="Blue Jackets"/>
+        </team-metadata>
+        <team-stats score="3" event-outcome="win"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.12584" date-coverage-value="l.nhl.com-2009-e.12584" event-status="post-event" event-name="" event-number="0" start-date-time="20100129T193000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-TN, FSN-DET">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-TN, FSN-DET"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Joe_Louis_Arena">
+            <name full="Joe Louis Arena"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="away">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="2" event-outcome="loss"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.17" alignment="home">
+          <name first="Detroit" last="Red Wings"/>
+        </team-metadata>
+        <team-stats score="4" event-outcome="win"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.12605" date-coverage-value="l.nhl.com-2009-e.12605" event-status="post-event" event-name="" event-number="0" start-date-time="20100130T200000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value=""/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Sommet_Center">
+            <name full="Sommet Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.9" alignment="away">
+          <name first="Atlanta" last="Thrashers"/>
+        </team-metadata>
+        <team-stats score="3" event-outcome="loss"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="home">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="4" event-outcome="win"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.11425" date-coverage-value="l.nhl.com-2009-e.11425" event-status="post-event" event-name="" event-number="0" start-date-time="20100202T200000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-AZ">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-AZ"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Sommet_Center">
+            <name full="Sommet Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.25" alignment="away">
+          <name first="Phoenix" last="Coyotes"/>
+        </team-metadata>
+        <team-stats score="1" event-outcome="win"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="home">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="loss"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.11479" date-coverage-value="l.nhl.com-2009-e.11479" event-status="post-event" event-name="" event-number="0" start-date-time="20100204T200000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="ALT">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="ALT"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Sommet_Center">
+            <name full="Sommet Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.27" alignment="away">
+          <name first="Colorado" last="Avalanche"/>
+        </team-metadata>
+        <team-stats score="3" event-outcome="loss"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="home">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="5" event-outcome="win"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.11548" date-coverage-value="l.nhl.com-2009-e.11548" event-status="post-event" event-name="" event-number="0" start-date-time="20100206T200000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="CSN-CA">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="CSN-CA"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Sommet_Center">
+            <name full="Sommet Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.24" alignment="away">
+          <name first="San Jose" last="Sharks"/>
+        </team-metadata>
+        <team-stats score="4" event-outcome="win"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="home">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="3" event-outcome="loss"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.11602" date-coverage-value="l.nhl.com-2009-e.11602" event-status="post-event" event-name="" event-number="0" start-date-time="20100209T190000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-TN, MSG+">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-TN, MSG+"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Nassau_Veterans_Memorial_Coliseum">
+            <name full="Nassau Veterans Memorial Coliseum"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="away">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="3" event-outcome="loss"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.2" alignment="home">
+          <name first="New York" last="Islanders"/>
+        </team-metadata>
+        <team-stats score="4" event-outcome="win"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.11625" date-coverage-value="l.nhl.com-2009-e.11625" event-status="post-event" event-name="" event-number="0" start-date-time="20100210T190000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-TN, MSG">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-TN, MSG"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Madison_Square_Garden">
+            <name full="Madison Square Garden"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="away">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="2" event-outcome="win"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.3" alignment="home">
+          <name first="New York" last="Rangers"/>
+        </team-metadata>
+        <team-stats score="1" event-outcome="loss"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.11667" date-coverage-value="l.nhl.com-2009-e.11667" event-status="post-event" event-name="" event-number="0" start-date-time="20100212T190000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-TN, MSG+">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-TN, MSG+"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Prudential_Center">
+            <name full="Prudential Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="away">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="2" event-outcome="loss"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.1" alignment="home">
+          <name first="New Jersey" last="Devils"/>
+        </team-metadata>
+        <team-stats score="5" event-outcome="win"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.11707" date-coverage-value="l.nhl.com-2009-e.11707" event-status="post-event" event-name="" event-number="0" start-date-time="20100214T130000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="NHL.CAN, FSN-TN, FSN-PIT">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="NHL.CAN, FSN-TN, FSN-PIT"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Mellon_Arena">
+            <name full="Mellon Arena"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="away">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="4" event-outcome="win"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.5" alignment="home">
+          <name first="Pittsburgh" last="Penguins"/>
+        </team-metadata>
+        <team-stats score="3" event-outcome="loss"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.11802" date-coverage-value="l.nhl.com-2009-e.11802" event-status="pre-event" event-name="" event-number="0" start-date-time="20100302T200000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-TN">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-TN"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Sommet_Center">
+            <name full="Sommet Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.29" alignment="away">
+          <name first="Edmonton" last="Oilers"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="undecided"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="home">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="undecided"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.11850" date-coverage-value="l.nhl.com-2009-e.11850" event-status="pre-event" event-name="" event-number="0" start-date-time="20100304T200000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-W">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-W"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Sommet_Center">
+            <name full="Sommet Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.23" alignment="away">
+          <name first="Los Angeles" last="Kings"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="undecided"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="home">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="undecided"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.11873" date-coverage-value="l.nhl.com-2009-e.11873" event-status="pre-event" event-name="" event-number="0" start-date-time="20100305T193000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-DET">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-DET"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Joe_Louis_Arena">
+            <name full="Joe Louis Arena"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="away">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="undecided"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.17" alignment="home">
+          <name first="Detroit" last="Red Wings"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="undecided"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.11916" date-coverage-value="l.nhl.com-2009-e.11916" event-status="pre-event" event-name="" event-number="0" start-date-time="20100307T150000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="SNET-P">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="SNET-P"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Sommet_Center">
+            <name full="Sommet Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.26" alignment="away">
+          <name first="Vancouver" last="Canucks"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="undecided"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="home">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="undecided"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.11937" date-coverage-value="l.nhl.com-2009-e.11937" event-status="pre-event" event-name="" event-number="0" start-date-time="20100309T190000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-TN, SportSouth">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-TN, SportSouth"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Philips_Arena">
+            <name full="Philips Arena"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="away">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="undecided"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.9" alignment="home">
+          <name first="Atlanta" last="Thrashers"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="undecided"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.11990" date-coverage-value="l.nhl.com-2009-e.11990" event-status="pre-event" event-name="" event-number="0" start-date-time="20100311T223000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-TN, CSN-CA">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-TN, CSN-CA"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="HP_Pavilion">
+            <name full="HP Pavilion"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="away">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="undecided"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.24" alignment="home">
+          <name first="San Jose" last="Sharks"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="undecided"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.12012" date-coverage-value="l.nhl.com-2009-e.12012" event-status="pre-event" event-name="" event-number="0" start-date-time="20100312T220000-0500" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="NHL-CAN, FSN-TN, FSN-PT">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="NHL-CAN, FSN-TN, FSN-PT"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Honda_Center">
+            <name full="Honda Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="away">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="undecided"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.22" alignment="home">
+          <name first="Anaheim" last="Ducks"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="undecided"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.12035" date-coverage-value="l.nhl.com-2009-e.12035" event-status="pre-event" event-name="" event-number="0" start-date-time="20100314T150000-0400" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-TN, FSN-W">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-TN, FSN-W"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Staples_Center">
+            <name full="Staples Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="away">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="undecided"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.23" alignment="home">
+          <name first="Los Angeles" last="Kings"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="undecided"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.12081" date-coverage-value="l.nhl.com-2009-e.12081" event-status="pre-event" event-name="" event-number="0" start-date-time="20100316T200000-0400" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="CSN-PHI, FSN-TN">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="CSN-PHI, FSN-TN"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Sommet_Center">
+            <name full="Sommet Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.4" alignment="away">
+          <name first="Philadelphia" last="Flyers"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="undecided"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="home">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="undecided"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.12115" date-coverage-value="l.nhl.com-2009-e.12115" event-status="pre-event" event-name="" event-number="0" start-date-time="20100318T200000-0400" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-TN">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-TN"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Sommet_Center">
+            <name full="Sommet Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.30" alignment="away">
+          <name first="Minnesota" last="Wild"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="undecided"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="home">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="undecided"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.12153" date-coverage-value="l.nhl.com-2009-e.12153" event-status="pre-event" event-name="" event-number="0" start-date-time="20100320T200000-0400" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-OH, FSN-TN">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-OH, FSN-TN"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Sommet_Center">
+            <name full="Sommet Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.20" alignment="away">
+          <name first="Columbus" last="Blue Jackets"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="undecided"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="home">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="undecided"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.12239" date-coverage-value="l.nhl.com-2009-e.12239" event-status="pre-event" event-name="" event-number="0" start-date-time="20100321T180000-0400" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-TV, FSN-NW">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-TV, FSN-NW"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Scottrade_Center">
+            <name full="Scottrade Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="away">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="undecided"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.18" alignment="home">
+          <name first="St. Louis" last="Blues"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="undecided"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.12304" date-coverage-value="l.nhl.com-2009-e.12304" event-status="pre-event" event-name="" event-number="0" start-date-time="20100323T200000-0400" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="KDFI, FSN-TN">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="KDFI, FSN-TN"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Sommet_Center">
+            <name full="Sommet Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.21" alignment="away">
+          <name first="Dallas" last="Stars"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="undecided"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="home">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="undecided"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.12403" date-coverage-value="l.nhl.com-2009-e.12403" event-status="pre-event" event-name="" event-number="0" start-date-time="20100325T200000-0400" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-AZ, FSN-TN">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-AZ, FSN-TN"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Sommet_Center">
+            <name full="Sommet Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.25" alignment="away">
+          <name first="Phoenix" last="Coyotes"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="undecided"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="home">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="undecided"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.12451" date-coverage-value="l.nhl.com-2009-e.12451" event-status="pre-event" event-name="" event-number="0" start-date-time="20100327T200000-0400" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-DET, FSN-TN">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-DET, FSN-TN"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Sommet_Center">
+            <name full="Sommet Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.17" alignment="away">
+          <name first="Detroit" last="Red Wings"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="undecided"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="home">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="undecided"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.12500" date-coverage-value="l.nhl.com-2009-e.12500" event-status="pre-event" event-name="" event-number="0" start-date-time="20100329T193000-0400" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value=""/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="BankAtlantic_Center">
+            <name full="BankAtlantic Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="away">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="undecided"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.10" alignment="home">
+          <name first="Florida" last="Panthers"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="undecided"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.12536" date-coverage-value="l.nhl.com-2009-e.12536" event-status="pre-event" event-name="" event-number="0" start-date-time="20100330T200000-0400" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-W, FSN-TN">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-W, FSN-TN"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Sommet_Center">
+            <name full="Sommet Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.23" alignment="away">
+          <name first="Los Angeles" last="Kings"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="undecided"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="home">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="undecided"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.11396" date-coverage-value="l.nhl.com-2009-e.11396" event-status="pre-event" event-name="" event-number="0" start-date-time="20100401T200000-0400" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-MW, FSN-TN">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-MW, FSN-TN"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Sommet_Center">
+            <name full="Sommet Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.18" alignment="away">
+          <name first="St. Louis" last="Blues"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="undecided"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="home">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="undecided"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.11422" date-coverage-value="l.nhl.com-2009-e.11422" event-status="pre-event" event-name="" event-number="0" start-date-time="20100403T140000-0400" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-TN, FSN-DET">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-TN, FSN-DET"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Joe_Louis_Arena">
+            <name full="Joe Louis Arena"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="away">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="undecided"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.17" alignment="home">
+          <name first="Detroit" last="Red Wings"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="undecided"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.11483" date-coverage-value="l.nhl.com-2009-e.11483" event-status="pre-event" event-name="" event-number="0" start-date-time="20100407T220000-0400" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-TN, AZ">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-TN, AZ"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Jobing.com_Arena">
+            <name full="Jobing.com Arena"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="away">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="undecided"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.25" alignment="home">
+          <name first="Phoenix" last="Coyotes"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="undecided"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+    <sports-event>
+      <event-metadata xmlns:fs="java.io.File" xmlns:xte="www.xmlteam.com/xte" date-coverage-type="event" event-key="l.nhl.com-2009-e.11527" date-coverage-value="l.nhl.com-2009-e.11527" event-status="pre-event" event-name="" event-number="0" start-date-time="20100410T200000-0400" xts:time-certainty="certain" time-certainty="certain" xts:broadcast-listing="FSN-MW, FSN-TN">
+        <sports-content-codes/>
+        <sports-property formal-name="television-coverage" value="FSN-MW, FSN-TN"/>
+        <event-metadata-ice-hockey/>
+        <site>
+          <site-metadata site-key="Sommet_Center">
+            <name full="Sommet Center"/>
+            <home-location/>
+          </site-metadata>
+          <site-stats/>
+        </site>
+      </event-metadata>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.18" alignment="away">
+          <name first="St. Louis" last="Blues"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="undecided"/>
+      </team>
+      <team>
+        <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="home">
+          <name first="Nashville" last="Predators"/>
+        </team-metadata>
+        <team-stats score="0" event-outcome="undecided"/>
+      </team>
+      <highlight class="series-status"/>
+    </sports-event>
+  </schedule>
+</sports-content></xts:sports-content-set>

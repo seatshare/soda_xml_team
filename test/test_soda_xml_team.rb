@@ -1,6 +1,4 @@
-require 'test/unit'
-require 'soda_xml_team'
-require 'openssl'
+require 'test_helper'
 
 class SodaXmlTeamTest < Test::Unit::TestCase
 
@@ -11,6 +9,9 @@ class SodaXmlTeamTest < Test::Unit::TestCase
   end
 
   def test_get_listing
+    stub_request(:get, "https://#{ENV['SODA_USERNAME']}:#{ENV['SODA_PASSWORD']}@soda.xmlteam.com/api-trial/getListings?earliest-date-time=20100101T000000-0500&fixture-keys=schedule-single-team&latest-date-time=20110101T000000-0500&league-keys=l.nhl.com&max-result-count=10&revision-control=latest-only&stylesheet=sportsml2rss-1.0-s&team-keys=l.nhl.com-t.19").
+      to_return(:status => 200, :body => File.new("test/fixtures/test_get_listing.xml").read, :headers => {})
+
     soda = SodaXmlTeam::Client.new(ENV['SODA_USERNAME'], ENV['SODA_PASSWORD'])
     listing = soda.get_listing({
       sandbox: true,
@@ -24,6 +25,10 @@ class SodaXmlTeamTest < Test::Unit::TestCase
   end
 
   def test_get_document
+
+    stub_request(:get, "https://#{ENV['SODA_USERNAME']}:#{ENV['SODA_PASSWORD']}@soda.xmlteam.com/api-trial/getDocuments?doc-ids=xt.10875359-nas-sked").
+      to_return(:status => 200, :body => File.new("test/fixtures/test_get_document.xml").read, :headers => {})
+
     soda = SodaXmlTeam::Client.new(ENV['SODA_USERNAME'], ENV['SODA_PASSWORD'])
     document = soda.get_document({
       sandbox: true,
@@ -34,6 +39,10 @@ class SodaXmlTeamTest < Test::Unit::TestCase
   end
 
   def test_parse_schedule
+
+    stub_request(:get, "https://#{ENV['SODA_USERNAME']}:#{ENV['SODA_PASSWORD']}@soda.xmlteam.com/api-trial/getDocuments?doc-ids=xt.10875359-nas-sked").
+      to_return(:status => 200, :body => File.new("test/fixtures/test_parse_schedule.xml").read, :headers => {})
+
     soda = SodaXmlTeam::Client.new(ENV['SODA_USERNAME'], ENV['SODA_PASSWORD'])
     document = soda.get_document({
       sandbox: true,

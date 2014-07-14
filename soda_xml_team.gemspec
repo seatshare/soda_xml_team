@@ -22,6 +22,7 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency "bundler", "~> 1.3"
   s.add_development_dependency "rake", "~> 0"
+  s.add_development_dependency "webmock", "~> 1.18"
 
   s.add_dependency "nokogiri", "~> 1.6", ">= 1.6.2"
   s.add_dependency "httparty", "~> 0.13", ">= 0.13"
