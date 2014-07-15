@@ -88,7 +88,7 @@ module SodaXmlTeam
       if options[:sandbox] === true
         return SodaXmlTeam::API_SANDBOX_URL + endpoint + path
       else
-        return SodaXmlTeam::API_BASE_URL + + endpoint + path
+        return SodaXmlTeam::API_BASE_URL + endpoint + path
       end
 
     end
