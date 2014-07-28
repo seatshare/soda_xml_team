@@ -1,4 +1,4 @@
-# SODA from XML Team
+# SODA XML Team Gem
 
 [![Build Status](https://travis-ci.org/seatshare/soda_xml_team.png)](https://travis-ci.org/seatshare/soda_xml_team)
 
