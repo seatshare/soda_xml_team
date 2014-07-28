@@ -4,9 +4,23 @@
 
 This [gem]() serves as an interface to the [SODA (Sports On Demand API) from XML Team](http://www.xmlteam.com/soda/). It uses [HTTParty](http://johnnunemaker.com/httparty/) and [Nokogiri](http://nokogiri.org/) to retrieve and parse the data.
 
-## Installing
+## Installation
 
-Run `gem install soda_xml_team` to make it available system wide or add `gem 'soda_xml_team'` to your `Gemfile`.
+Add this line to your application's Gemfile:
+
+```ruby
+gem 'soda_xml_team'
+```
+
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install soda_xml_team
+
+## Usage
 
 ## Get a list of documents
 
@@ -61,3 +75,11 @@ schedule = SodaXmlTeam::Schedule.parse_schedule(schedule_document)
 # This is now available as an array of values
 puts schedule.inspect
 ```
+
+## Contributing
+
+1. Fork it ( https://github.com/seatshare/soda_xml_team/fork )
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create a new Pull Request
