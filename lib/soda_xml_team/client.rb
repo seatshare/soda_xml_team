@@ -10,16 +10,15 @@ module SodaXmlTeam
 
     def initialize(username, password)
       @auth = {:username => username, :password => password}
-      @certs = 'lib/ca-bundle.crt'
     end
     
     def get_listing(options={})
-      response = HTTParty.get(SodaXmlTeam::Address.build("get_listing", options), { :basic_auth => @auth, :ssl_ca_file => @certs })
+      response = HTTParty.get(SodaXmlTeam::Address.build("get_listing", options), { :basic_auth => @auth, :verify => false })
       Nokogiri::XML(response.body)
     end
 
     def get_document(options={})
-      response = HTTParty.get(SodaXmlTeam::Address.build("get_document", options), { :basic_auth => @auth, :ssl_ca_file => @certs })
+      response = HTTParty.get(SodaXmlTeam::Address.build("get_document", options), { :basic_auth => @auth, :verify => false })
       Nokogiri::XML(response.body)
     end
 
