@@ -18,7 +18,11 @@ module SodaXmlTeam
 
         event.css('event-metadata').each do |eventmeta|
           row[:event_key] = eventmeta['event-key']
-          row[:start_date_time] = eventmeta['start-date-time']
+          row[:start_date_time] = DateTime.parse(eventmeta['start-date-time'])
+          row[:time_certainty] = eventmeta['time-certainty']
+          eventmeta.css('site name').each do |sitemeta|
+            row[:site] = sitemeta['full']
+          end
         end
         event.css('team team-metadata[alignment="away"]').each do |away_team|
           team_name = away_team.css('name').first
