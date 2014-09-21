@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<xts:sports-content-set xmlns:xts="http://www.xmlteam.com" query-date-time="20140920T232309-0400" query-string="https://soda.xmlteam.com/api-trial/getDocuments?doc-ids=xt.3329967-NAS-2005-OUTLOOK" hostname="soda.xmlteam.com" result-count="1" error-count="0" elapsed-time="2.8ms"><sports-content xmlns:str="java.lang.String" path-id="ice-hockey/l.nhl.com/news/xt.3329967-NAS-2005-OUTLOOK" xts:systemid="newsxml" xts:tsnid="3329967">
+  <sports-metadata xmlns:fs="java.io.File" date-time="20050926T150900-0400" doc-id="xt.3329967-NAS-2005-OUTLOOK" xts:tsnslug="ADN;NAS-2005-OUTLOOK" language="en-US" revision-id="xt.3329967-NAS-2005-OUTLOOK" fixture-key="general-news" document-class="news" fixture-name="General News">
+    <sports-title>2005-06 Nashville Predators Preview</sports-title>
+    <sports-content-codes>
+      <sports-content-code code-name="The Sports Network" code-key="sportsnetwork.com" code-type="publisher"/>
+      <sports-content-code code-name="XML Team Solutions, Inc." code-key="xmlteam.com" code-type="distributor"/>
+      <sports-content-code code-type="sport" code-key="15031000" code-name="Ice Hockey"/>
+      <sports-content-code code-type="league" code-key="l.nhl.com" code-name="National Hockey League"/>
+      <sports-content-code code-type="priority" code-key="normal"/>
+      <sports-content-code code-type="conference" code-key="c.western" code-name="Western"/>
+      <sports-content-code code-type="team" code-key="l.nhl.com-t.19" code-name="Nashville Predators"/>
+    </sports-content-codes>
+  </sports-metadata>
+  <article format="nitf">
+    <nitf>
+      <head>
+        <docdata/>
+      </head>
+      <body>
+        <body.head>
+          <hedline>
+            <hl1>2005-06 Nashville Predators Preview</hl1>
+          </hedline>
+          <byline>
+            By
+            <person>Matt Canamucio</person>
+            <byttl>Sports Network</byttl>
+          </byline>
+          <abstract>
+            <p>The Nashville Predators were the surprise playoff club in
+ 2003-04, and now the team hopes to get back to the postseason and take things
+ a step further.</p>
+          </abstract>
+        </body.head>
+        <body.content>
+          <p>(Sports  Network)  - The Nashville Predators were the surprise playoff club in
+ 2003-04, and now the team hopes to get back to the postseason and take things
+ a step further.</p>
+          <p>During the offseason the club's big splash was the signing of Paul Kariya, who
+ hopes to return to a superstar level after a down year with the Colorado
+ Avalanche.</p>
+          <p>The team also bolstered its defense with the acquisition of Danny Markov from
+ Philadelphia, and re-signed many of its key cogs.</p>
+          <p>Head coach Barry Trotz is the only bench boss the team has had since its
+ inception in 1998, and in 03-04 he finally put things together on the ice. The
+ Preds were a gritty bunch that wasn't intimidated by the upper echelon clubs.
+ This was evident by its rivalry with Detroit during the regular season, and a
+ valiant effort in the first round.</p>
+          <p>That grit and gumption now has a bona fide star to lead its effort, spurring
+ hope for a second straight postseason berth.</p>
+          <p>FORWARDS - Kariya and Teemu Selanne went to Colorado as a package deal before
+ the last NHL season, and the whole thing was a bust. Kariya battled injury
+ during the campaign, tallying only 11 goals and 25 assists in 51 games. The
+ seven-time All-Star posted 25 goals and 56 assists in a full season for
+ Anaheim in 02-03, eventually leading the Ducks to the Stanley Cup Finals.</p>
+          <p>Kariya is a terrific lead horse for a stable of young forwards who have really
+ been without a leader. David Legwand is a prime talent who had been an enigma
+ for his first few seasons. In 03-04 he tallied 18 goals and 28 assists,
+ including five game-winning goals.</p>
+          <p>Scott Walker is a guy who has been injury-prone throughout his career, but
+ came through with a career effort last time out (25g, 42a). Walker is only
+ 5-10, 196 pounds but plays tougher than his size. Greg Johnson returns to
+ supply leadership and stability, while former first-rounder Scott Hartnell
+ hopes to escape the obscurity of fourth-line duty.</p>
+          <p>Veteran speedster Steve Sullivan hopes to get back on track after being
+ injured for most of the last two seasons. He was a 25-35-goal scorers a few
+ years back with Chicago, and the Preds could sure use that spark. You have to
+ wonder if all those years as an undersized NHL forward are finally taking a
+ toll.</p>
+          <p>The Predators have a nice amount of toughness up front as well, with Darcy
+ Hordichuk, Scott Nichol and the wild Jordin Tootoo in the fold.</p>
+          <p>DEFENSE - Markov became available when the Philadelphia Flyers needed to clear
+ some cap space. He combined for six goals and 13 assists in 78 games for the
+ Flyers and Hurricanes last time out, and is a guy who can log quality minutes
+ in every situation. Markov is a tough guy to play against, as he is quick on
+ his skates and plays physically.</p>
+          <p>Kimmo Timonen is the team's puck mover and power-play QB, having tallied 12
+ goals and 32 assists in 77 games back in 03-04. Timonen has bagged at least
+ 12 scores on three occasions during his six-season career.</p>
+          <p>Marek Zdlicky is another offensive blueliner, netting 14 goals with 39 assists
+ in 82 games as a rookie in 03-04. Acquired in the Mike Dunham trade with New
+ York a few years back, Zdlicky especially lifted the Preds' power-play unit,
+ accounting for nine goals and 26 assists with the man advantage.</p>
+          <p>Former first-round pick Dan Hamhius stepped in and made an impact in 03-04,
+ and the club hopes for the same from Ryan Suter. Suter, who has a family
+ pedigree, was the club's top choice in 2003. He played collegiately at
+ Wisconsin and went pro last season, posting seven goals, 16 assists and 70
+ penalty minutes in 63 games for the Milwaukee Admirals of the AHL.</p>
+          <p>GOALTENDING - Tomas Vokoun has emerged as a viable workhorse goaltender for
+ the Preds, as he started 73 games in 03-04. The Czech went 34-29-10 with a
+ 2.53 goals-against average and .909 save percentage. Vokoun played well in the
+ first-round series against Detroit too, holding the Red Wings to 12 goals in
+ six games.</p>
+          <p>Chris Mason will likely serve as Vokoun's backup, after appearing in 17 games
+ (nine starts) during 03-04. He went 4-4-1 with a 2.18 GAA and .926 SP.</p>
+          <p>WHEN ALL IS SAID AND DONE - The Predators caught teams by surprise in 03-04
+ with their hard-nosed, no-fear play. Teams will expect it this time around, so
+ the onus will be on the skill players to raise their games. This begins with
+ Kariya, who hopes to have a rebound season for a club that has many of its key
+ parts returning. The Nashville brass has been patient with its young players,
+ and it has paid off to this point.</p>
+        </body.content>
+      </body>
+    </nitf>
+  </article>
+</sports-content></xts:sports-content-set>
