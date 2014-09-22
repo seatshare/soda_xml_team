@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/seatshare/soda_xml_team.png)](https://travis-ci.org/seatshare/soda_xml_team)
 
-This [gem]() serves as an interface to the [SODA (Sports On Demand API) from XML Team](http://www.xmlteam.com/soda/). It uses [HTTParty](http://johnnunemaker.com/httparty/) and [Nokogiri](http://nokogiri.org/) to retrieve and parse the data.
+This [gem](http://rubygems.org/gems/soda_xml_team) serves as an interface to the [SODA (Sports On Demand API) from XML Team](http://www.xmlteam.com/soda/). It uses [HTTParty](http://johnnunemaker.com/httparty/) and [Nokogiri](http://nokogiri.org/) to retrieve and parse the data.
 
 ## Installation
 
@@ -75,6 +75,21 @@ schedule = SodaXmlTeam::Schedule.parse_schedule(schedule_document)
 # This is now available as an array of values
 puts schedule.inspect
 ```
+
+### News Parser
+
+```
+soda = SodaXmlTeam::Client.new('your_username', 'your_password')
+news_document = soda.get_document({
+  sandbox: true,
+  document_id: 'xt.3329967-NAS-2005-OUTLOOK'
+})
+article = SodaXmlTeam::Schedule.parse_news(news_document)
+
+# This is now available as an array of values
+puts article.inspect
+```
+
 
 ## Contributing
 
