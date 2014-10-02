@@ -15,8 +15,11 @@ RSpec.configure do |config|
     stub_request(:get, "https://#{ENV['SODA_USERNAME']}:#{ENV['SODA_PASSWORD']}@soda.xmlteam.com/api-trial/getDocuments?doc-ids=xt.10875359-nas-sked").
       to_return(:status => 200, :body => File.new("spec/fixtures/get_document_schedule.xml").read, :headers => {})
 
-     stub_request(:get, "https://testuser:testpassword@soda.xmlteam.com/api-trial/getDocuments?doc-ids=xt.3329967-NAS-2005-OUTLOOK").
+     stub_request(:get, "https://#{ENV['SODA_USERNAME']}:#{ENV['SODA_PASSWORD']}@soda.xmlteam.com/api-trial/getDocuments?doc-ids=xt.3329967-NAS-2005-OUTLOOK").
        to_return(:status => 200, :body => File.new("spec/fixtures/get_document_news.xml").read, :headers => {})
+
+     stub_request(:get, "https://#{ENV['SODA_USERNAME']}:#{ENV['SODA_PASSWORD']}@soda.xmlteam.com/api-trial/getDocuments?doc-ids=xt.10878197-standings").
+       to_return(:status => 200, :body => File.new("spec/fixtures/get_document_standings.xml").read, :headers => {})
 
   end
 end

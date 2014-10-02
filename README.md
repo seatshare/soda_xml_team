@@ -26,7 +26,7 @@ Or install it yourself as:
 
 The SODA service works by keeping revisions of various documents (schedules, news, injury reports, etc.) that you are charged pre-paid credit for downloading. It is currently does not cost any credits to obtain the list of available documents.
 
-```
+```ruby
 soda = SodaXmlTeam::Client.new('your_username', 'your_password')
 listing = soda.get_listing({
   # Set sandbox to true if you are browsing the trial dataset
@@ -46,7 +46,7 @@ puts listing.inspect
 
 Once you have this listing, you can obtain the individual document. As each document costs a credit _per download (even if you download the same version again)_, it is recommended that you cache / index this data somewhere in your application to avoid quickly depleting your credit balance.
 
-```
+```ruby
 soda = SodaXmlTeam::Client.new('your_username', 'your_password')
 document = soda.get_document({
   # Set sandbox to true if you are browsing the trial dataset
@@ -64,7 +64,7 @@ For some of the more common data types, the gem will create a native ruby repres
 
 ### Schedule Parser
 
-```
+```ruby
 soda = SodaXmlTeam::Client.new('your_username', 'your_password')
 schedule_document = soda.get_document({
   sandbox: true,
@@ -78,7 +78,7 @@ puts schedule.inspect
 
 ### News Parser
 
-```
+```ruby
 soda = SodaXmlTeam::Client.new('your_username', 'your_password')
 news_document = soda.get_document({
   sandbox: true,
@@ -88,6 +88,20 @@ article = SodaXmlTeam::Schedule.parse_news(news_document)
 
 # This is now available as an array of values
 puts article.inspect
+```
+
+### Standings Parser
+
+```ruby
+soda = SodaXmlTeam::Client.new('your_username', 'your_password')
+standings_document = soda.get_document({
+  sandbox: true,
+  document_id: 'xt.10878197-standings'
+})
+standings = SodaXmlTeam::Standings.parse_standings(standings_document)
+
+# This is now available as an array of values
+puts standings.inspect
 ```
 
 
