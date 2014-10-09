@@ -20,8 +20,7 @@ module SodaXmlTeam
 
         # Parse for document ID
         link = item.css('link').inner_text
-        uri = URI.parse(link)
-        document_id = CGI.parse(uri.query)['doc-ids'].first
+        document_id = link.gsub /(.*)?doc-ids=/i, ''
 
         record[:title] = item.css('title').inner_text
         record[:link] = link
