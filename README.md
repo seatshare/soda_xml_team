@@ -28,7 +28,7 @@ The SODA service works by keeping revisions of various documents (schedules, new
 
 ```ruby
 soda = SodaXmlTeam::Client.new('your_username', 'your_password')
-listing = soda.get_listing({
+listing = soda.content_finder({
   # Set sandbox to true if you are browsing the trial dataset
   sandbox: false,
   league_id: 'l.nhl.com',
@@ -38,7 +38,7 @@ listing = soda.get_listing({
   end_datetime: DateTime.parse('2011-01-01 00:00:00 CDT')
 })
 
-# A Nokogiri XML representation of the document list
+# An array of documents matching your query
 puts listing.inspect
 ```
 
