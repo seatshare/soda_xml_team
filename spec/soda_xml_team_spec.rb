@@ -35,6 +35,35 @@ describe "SodaXmlTeam" do
       expect(output[0][:team]).to eq "l.nhl.com-t.19"
     end
 
+    let(:input) {
+      {
+        sandbox: true,
+        league_id: 'l.nhl.com',
+        team_id: 'l.nhl.com-t.19',
+        type: 'schedule-single-team',
+        start_datetime: '2010-01-01 00:00:00 CDT',
+        end_datetime: '2011-01-01 00:00:00 CDT'
+      }
+    }
+    let(:output) { subject.content_finder(input) }
+
+    it 'has seven items with string timestamp' do
+      expect(output.length).to eq 7
+    end
+
+    it 'has attributes that match with string timestamp' do
+      expect(output[1][:title]).to eq "2010 Nashville Predators Schedule"
+      expect(output[1][:link]).to eq "http://soda.xmlteam.com/api-trial/getDocuments?doc-ids=xt.10860136-nas-sked"
+      expect(output[1][:document_id]).to eq "xt.10860136-nas-sked"
+      expect(output[1][:date]).to eq DateTime.parse('February 12, 2010 22:49 PM CDT')
+      expect(output[1][:publisher]).to eq "sportsnetwork.com"
+      expect(output[1][:priority]).to eq "normal"
+      expect(output[1][:sport]).to eq "15031000"
+      expect(output[1][:league]).to eq "l.nhl.com"
+      expect(output[1][:conference]).to eq "c.western"
+      expect(output[1][:team]).to eq "l.nhl.com-t.19"
+    end
+
   end
 
   describe '.get_document' do

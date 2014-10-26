@@ -14,11 +14,15 @@ gem 'soda_xml_team'
 
 And then execute:
 
-    $ bundle
+```bash
+$ bundle
+```
 
 Or install it yourself as:
 
-    $ gem install soda_xml_team
+```bash
+$ gem install soda_xml_team
+```
 
 ## Usage
 
@@ -34,8 +38,8 @@ listing = soda.content_finder({
   league_id: 'l.nhl.com',
   team_id: 'l.nhl.com-t.19',
   type: 'schedule-single-team',
-  start_datetime: DateTime.parse('2010-01-01 00:00:00 CDT'),
-  end_datetime: DateTime.parse('2011-01-01 00:00:00 CDT')
+  start_datetime: '2010-01-01 00:00:00 CDT',
+  end_datetime: '2011-01-01 00:00:00 CDT'
 })
 
 # An array of documents matching your query
@@ -103,7 +107,6 @@ standings = SodaXmlTeam::Standings.parse_standings(standings_document)
 # This is now available as an array of values
 puts standings.inspect
 ```
-
 
 ## Contributing
 
