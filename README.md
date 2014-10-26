@@ -1,6 +1,6 @@
 # SODA XML Team Gem
 
-[![Build Status](https://travis-ci.org/seatshare/soda_xml_team.png)](https://travis-ci.org/seatshare/soda_xml_team)
+[![Gem Version](https://badge.fury.io/rb/soda_xml_team.svg)](http://badge.fury.io/rb/soda_xml_team) [![Build Status](https://travis-ci.org/seatshare/soda_xml_team.png)](https://travis-ci.org/seatshare/soda_xml_team)
 
 This [gem](http://rubygems.org/gems/soda_xml_team) serves as an interface to the [SODA (Sports On Demand API) from XML Team](http://www.xmlteam.com/soda/). It uses [HTTParty](http://johnnunemaker.com/httparty/) and [Nokogiri](http://nokogiri.org/) to retrieve and parse the data.
 
