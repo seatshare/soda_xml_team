@@ -35,12 +35,18 @@ module SodaXmlTeam
         end
 
         # Start date/time
-        if options[:start_datetime].is_a? DateTime
+        if options[:start_datetime].is_a? String
+          options[:start_datetime] = DateTime.parse(options[:start_datetime])
+          path << "earliest-date-time=#{options[:start_datetime].strftime('%Y%m%dT%H%M%S%z')}"
+        elsif options[:start_datetime].is_a? DateTime
           path << "earliest-date-time=#{options[:start_datetime].strftime('%Y%m%dT%H%M%S%z')}"
         end
 
         # End date/time
-        if options[:end_datetime].is_a? DateTime
+        if options[:end_datetime].is_a? String
+          options[:end_datetime] = DateTime.parse(options[:end_datetime])
+          path << "latest-date-time=#{options[:end_datetime].strftime('%Y%m%dT%H%M%S%z')}"
+        elsif options[:end_datetime].is_a? DateTime
           path << "latest-date-time=#{options[:end_datetime].strftime('%Y%m%dT%H%M%S%z')}"
         end
 

@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Stephen Yeargin"]
   spec.email         = ["stephen@seatsha.re"]
   spec.summary       = %q{XML Team Sports On Demand API}
-  spec.description   = %q{A basic layer for interacting XML Team's Sports On Demand API (SODA)}
+  spec.description   = %q{A basic layer for interacting with XML Team's Sports On Demand API (SODA)}
   spec.homepage      = "https://github.com/seatshare/soda_xml_team"
   spec.license       = "MIT"
 
