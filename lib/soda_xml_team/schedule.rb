@@ -1,16 +1,18 @@
+##
+# SODA XML Team module
 module SodaXmlTeam
-
   require 'nokogiri'
 
+  ##
+  # Schedule class
   class Schedule
-
-    def self.parse_schedule(document={})
-
+    ##
+    # Parses schedule documents into hashes
+    # - document: a Nokegiri::XML::Document
+    def self.parse_schedule(document = {})
       output = []
 
-      unless document.is_a? Nokogiri::XML::Document
-        raise "Invalid XML schedule."
-      end
+      fail 'Invalid XML schedule.' unless document.is_a? Nokogiri::XML::Document
 
       document.css('schedule sports-event').each do |event|
 
@@ -37,10 +39,7 @@ module SodaXmlTeam
         output << row
       end
 
-      return output
-
+      output
     end
-
   end
-
 end

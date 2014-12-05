@@ -6,12 +6,14 @@ describe SodaXmlTeam do
 
   describe '.parse_schedule' do
 
-    let(:input) {
-      SodaXmlTeam::Client.new(ENV['SODA_USERNAME'], ENV['SODA_PASSWORD']).get_document({
+    let(:input) do
+      SodaXmlTeam::Client.new(
+        ENV['SODA_USERNAME'], ENV['SODA_PASSWORD']
+      ).get_document(
         sandbox: true,
         document_id: 'xt.10875359-nas-sked'
-      })
-    }
+      )
+    end
     let(:output) { subject.parse_schedule(input) }
 
     it 'has 82 games in a season' do
@@ -27,7 +29,9 @@ describe SodaXmlTeam do
     end
 
     it 'has expected start date/time' do
-      expect(output[1][:start_date_time]).to eq DateTime.parse('October 8, 2009 7:00 PM CDT')
+      expect(output[1][:start_date_time]).to eq DateTime.parse(
+        'October 8, 2009 7:00 PM CDT'
+      )
     end
 
     it 'has expected site' do

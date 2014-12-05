@@ -1,23 +1,28 @@
+##
+# SODA XML Team module
 module SodaXmlTeam
-
   require 'nokogiri'
 
+  ##
+  # Standings class
   class Standings
-
-    def self.parse_standings(document={})
-
+    ##
+    # Parses standings documents into hashes
+    # - document: a Nokegiri::XML::Document
+    def self.parse_standings(document = {})
       output = []
 
-      unless document.is_a? Nokogiri::XML::Document
-        raise "Invalid XML standings."
-      end
+      fail 'Invalid XML standings.' unless
+        document.is_a? Nokogiri::XML::Document
 
       document.css('sports-content standing').each do |division|
 
         row = {}
         row[:division] = division['content-label']
 
-        division.css('standing-metadata sports-content-codes sports-content-code[code-type="conference"]').each do |standingmetadata|
+        division.css(
+          'sports-content-codes sports-content-code[code-type="conference"]'
+        ).each do |standingmetadata|
           row[:conference] = standingmetadata['code-name']
         end
 
@@ -27,8 +32,8 @@ module SodaXmlTeam
 
           team_record = {}
 
-          team.css('team-metadata name').each do |teammetaname|
-            team_record[:name] = "#{teammetaname[:first]} #{teammetaname[:last]}"
+          team.css('team-metadata name').each do |tmn|
+            team_record[:name] = "#{tmn[:first]} #{tmn[:last]}"
           end
 
           team.css('team-stats').each do |teamstats|
@@ -36,18 +41,22 @@ module SodaXmlTeam
             team_record[:standing_points] = teamstats['standing-points'].to_i
           end
 
-          team.css('team-stats rank').each do |teamstatsrank|
-            team_record[:division_rank] = teamstatsrank[:value].to_i
-            team_record[:conference_rank] = teamstatsrank['xts:conference-rank'].to_i
+          team.css('team-stats rank').each do |tsr|
+            team_record[:division_rank] = tsr[:value].to_i
+            team_record[:conference_rank] = tsr['xts:conference-rank'].to_i
           end
 
-          team.css('team-stats outcome-totals').each do |outcometotals|
-            next if outcometotals['competition-scope'] != "league"
-            next if outcometotals['date-coverage-type'] != "season-regular"
-            next if !outcometotals['duration-scope'].nil?
-            next if !outcometotals['alignment-scope'].nil?
-            outcometotals.keys.each do |outcometotalskey|
-              team_record[outcometotalskey] = outcometotals[outcometotalskey].to_i if Float(outcometotals[outcometotalskey]) rescue team_record[outcometotalskey] = outcometotals[outcometotalskey]
+          team.css('team-stats outcome-totals').each do |ot|
+            next if ot['competition-scope'] != 'league'
+            next if ot['date-coverage-type'] != 'season-regular'
+            next unless ot['duration-scope'].nil?
+            next unless ot['alignment-scope'].nil?
+            ot.keys.each do |otk|
+              begin
+                team_record[otk] = ot[otk].to_i if Float(ot[otk])
+              rescue
+                team_record[otk] = ot[otk]
+              end
             end
           end
 
@@ -58,10 +67,7 @@ module SodaXmlTeam
         output << row
       end
 
-      return output
-
+      output
     end
-
   end
-
 end

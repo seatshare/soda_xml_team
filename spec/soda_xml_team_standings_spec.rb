@@ -6,12 +6,14 @@ describe SodaXmlTeam do
 
   describe '.parse_standings' do
 
-    let(:input) {
-      SodaXmlTeam::Client.new(ENV['SODA_USERNAME'], ENV['SODA_PASSWORD']).get_document({
+    let(:input) do
+      SodaXmlTeam::Client.new(
+        ENV['SODA_USERNAME'], ENV['SODA_PASSWORD']
+      ).get_document(
         sandbox: true,
         document_id: 'xt.10878197-standings'
-      })
-    }
+      )
+    end
     let(:output) { subject.parse_standings(input) }
 
     it 'has a division name' do
