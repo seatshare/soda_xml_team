@@ -1,0 +1,61 @@
+#!/usr/bin/env ruby
+
+require 'nokogiri'
+
+# Arguments
+file = "#{ARGV[0]}" || nil
+
+if file.nil? || file == ''
+  puts 'Usage: soda-league-directory path-to-file.xml'
+  Kernel.exit(false)
+end
+
+unless File.exist? file
+  puts 'File does not exist.'
+  Kernel.exit(false)
+end
+
+File.open("#{ARGV[0]}", 'r') do |io|
+
+  document = Nokogiri::XML(io)
+
+  fail 'Invalid XML league directory.' unless document.is_a? Nokogiri::XML::Document
+
+  output = []
+
+  entity_type = ''
+  document.css('sports-content-codes sports-content-code[code-type="league"]').each do |sportscontentcode|
+    entity_type = sportscontentcode['code-key']
+  end
+
+  document.css('team').each do |team|
+
+    row = {}
+
+    team.css('team-metadata').each do |teammeta|
+      row[:team_key] = teammeta['team-key']
+      team.css('name').each do |namemeta|
+        row[:name] = namemeta['full']
+      end
+    end
+
+    output << row
+  end
+
+  final_output = []
+  # Export a create statement
+  output.each do |team|
+    next if ['', 'TBA'].include? team[:name].strip
+    next if team[:team_key].strip == ''
+    object = {
+      import_key: team[:team_key],
+      entity_name: team[:name],
+      status: 1,
+      entity_type: entity_type
+    }
+    final_output << object
+  end
+
+  puts final_output.to_s
+
+end

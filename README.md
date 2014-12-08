@@ -108,6 +108,15 @@ standings = SodaXmlTeam::Standings.parse_standings(standings_document)
 puts standings.inspect
 ```
 
+### League Directory File Parser
+
+This gem includes an executable for parsing files from the [SODA League Directory](http://private.xmlteam.com/league-directory/), which is useful for handling a particular sports league.
+
+```bash
+$ soda-league-directory ~/Downloads/xt.20140505T114154-0400.l.afa.ar.primera-leaguedir.xml
+[{:import_key=>"o.afa.ar-t.113", :entity_name=>"Argentinos Juniors ", :status=>1, :entity_type=>"l.afa.ar.primera"}, {:import_key=>"o.afa.ar-t.92", :entity_name=>"Arsenal de Sarandi ", :status=>1, :entity_type=>"l.afa.ar.primera"}, ... ]
+```
+
 ## Contributing
 
 1. Fork it ( https://github.com/seatshare/soda_xml_team/fork )
