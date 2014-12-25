@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>SODA XML Team Gem by seatshare</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>SODA XML Team Gem</h1>
+        <p>A ruby gem to provide a basic layer for interacting with XML Team&#39;s Sports On Demand API (SODA)</p>
+        <p class="view"><a href="https://github.com/seatshare/soda_xml_team">View the Project on GitHub <small>seatshare/soda_xml_team</small></a></p>
+        <ul>
+          <li><a href="https://github.com/seatshare/soda_xml_team/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/seatshare/soda_xml_team/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/seatshare/soda_xml_team">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <p>This <a href="http://rubygems.org/gems/soda_xml_team">gem</a> serves as an interface to the <a href="http://www.xmlteam.com/soda/">SODA (Sports On Demand API) from XML Team</a>. It uses <a href="http://johnnunemaker.com/httparty/">HTTParty</a> and <a href="http://nokogiri.org/">Nokogiri</a> to retrieve and parse the data.</p>
+
+<h2>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<p>Add this line to your application's Gemfile:</p>
+
+<div class="highlight highlight-ruby"><pre><span class="pl-k">gem</span> <span class="pl-s1"><span class="pl-pds">'</span>soda_xml_team<span class="pl-pds">'</span></span></pre></div>
+
+<p>And then execute:</p>
+
+<div class="highlight highlight-bash"><pre>$ bundle</pre></div>
+
+<p>Or install it yourself as:</p>
+
+<div class="highlight highlight-bash"><pre>$ gem install soda_xml_team</pre></div>
+
+<h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<h2>
+<a id="get-a-list-of-documents" class="anchor" href="#get-a-list-of-documents" aria-hidden="true"><span class="octicon octicon-link"></span></a>Get a list of documents</h2>
+
+<p>The SODA service works by keeping revisions of various documents (schedules, news, injury reports, etc.) that you are charged pre-paid credit for downloading. It is currently does not cost any credits to obtain the list of available documents.</p>
+
+<div class="highlight highlight-ruby"><pre>soda <span class="pl-k">=</span> <span class="pl-s3">SodaXmlTeam</span>::<span class="pl-s3">Client</span>.<span class="pl-k">new</span>(<span class="pl-s1"><span class="pl-pds">'</span>your_username<span class="pl-pds">'</span></span>, <span class="pl-s1"><span class="pl-pds">'</span>your_password<span class="pl-pds">'</span></span>)
+listing <span class="pl-k">=</span> soda.content_finder({
+  <span class="pl-c"># Set sandbox to true if you are browsing the trial dataset</span>
+  <span class="pl-c1">sandbox:</span> <span class="pl-c1">false</span>,
+  <span class="pl-c1">league_id:</span> <span class="pl-s1"><span class="pl-pds">'</span>l.nhl.com<span class="pl-pds">'</span></span>,
+  <span class="pl-c1">team_id:</span> <span class="pl-s1"><span class="pl-pds">'</span>l.nhl.com-t.19<span class="pl-pds">'</span></span>,
+  <span class="pl-c1">type:</span> <span class="pl-s1"><span class="pl-pds">'</span>schedule-single-team<span class="pl-pds">'</span></span>,
+  <span class="pl-c1">start_datetime:</span> <span class="pl-s1"><span class="pl-pds">'</span>2010-01-01 00:00:00 CDT<span class="pl-pds">'</span></span>,
+  <span class="pl-c1">end_datetime:</span> <span class="pl-s1"><span class="pl-pds">'</span>2011-01-01 00:00:00 CDT<span class="pl-pds">'</span></span>
+})
+
+<span class="pl-c"># An array of documents matching your query</span>
+puts listing.inspect</pre></div>
+
+<h2>
+<a id="get-a-single-document" class="anchor" href="#get-a-single-document" aria-hidden="true"><span class="octicon octicon-link"></span></a>Get a single document</h2>
+
+<p>Once you have this listing, you can obtain the individual document. As each document costs a credit <em>per download (even if you download the same version again)</em>, it is recommended that you cache / index this data somewhere in your application to avoid quickly depleting your credit balance.</p>
+
+<div class="highlight highlight-ruby"><pre>soda <span class="pl-k">=</span> <span class="pl-s3">SodaXmlTeam</span>::<span class="pl-s3">Client</span>.<span class="pl-k">new</span>(<span class="pl-s1"><span class="pl-pds">'</span>your_username<span class="pl-pds">'</span></span>, <span class="pl-s1"><span class="pl-pds">'</span>your_password<span class="pl-pds">'</span></span>)
+document <span class="pl-k">=</span> soda.get_document({
+  <span class="pl-c"># Set sandbox to true if you are browsing the trial dataset</span>
+  <span class="pl-c1">sandbox:</span> <span class="pl-c1">false</span>,
+  <span class="pl-c1">document_id:</span> <span class="pl-s1"><span class="pl-pds">'</span>xt.10875359-nas-sked<span class="pl-pds">'</span></span>
+})
+
+<span class="pl-c"># A Nokogiri XML representation of the document contents</span>
+puts document.inspect</pre></div>
+
+<h2>
+<a id="bespoke-methods" class="anchor" href="#bespoke-methods" aria-hidden="true"><span class="octicon octicon-link"></span></a>Bespoke Methods</h2>
+
+<p>For some of the more common data types, the gem will create a native ruby representation of the data if you run it through one of the parsing methods.</p>
+
+<h3>
+<a id="schedule-parser" class="anchor" href="#schedule-parser" aria-hidden="true"><span class="octicon octicon-link"></span></a>Schedule Parser</h3>
+
+<div class="highlight highlight-ruby"><pre>soda <span class="pl-k">=</span> <span class="pl-s3">SodaXmlTeam</span>::<span class="pl-s3">Client</span>.<span class="pl-k">new</span>(<span class="pl-s1"><span class="pl-pds">'</span>your_username<span class="pl-pds">'</span></span>, <span class="pl-s1"><span class="pl-pds">'</span>your_password<span class="pl-pds">'</span></span>)
+schedule_document <span class="pl-k">=</span> soda.get_document({
+  <span class="pl-c1">sandbox:</span> <span class="pl-c1">true</span>,
+  <span class="pl-c1">document_id:</span> <span class="pl-s1"><span class="pl-pds">'</span>xt.10875359-nas-sked<span class="pl-pds">'</span></span>
+})
+schedule <span class="pl-k">=</span> <span class="pl-s3">SodaXmlTeam</span>::<span class="pl-s3">Schedule</span>.parse_schedule(schedule_document)
+
+<span class="pl-c"># This is now available as an array of values</span>
+puts schedule.inspect</pre></div>
+
+<h3>
+<a id="news-parser" class="anchor" href="#news-parser" aria-hidden="true"><span class="octicon octicon-link"></span></a>News Parser</h3>
+
+<div class="highlight highlight-ruby"><pre>soda <span class="pl-k">=</span> <span class="pl-s3">SodaXmlTeam</span>::<span class="pl-s3">Client</span>.<span class="pl-k">new</span>(<span class="pl-s1"><span class="pl-pds">'</span>your_username<span class="pl-pds">'</span></span>, <span class="pl-s1"><span class="pl-pds">'</span>your_password<span class="pl-pds">'</span></span>)
+news_document <span class="pl-k">=</span> soda.get_document({
+  <span class="pl-c1">sandbox:</span> <span class="pl-c1">true</span>,
+  <span class="pl-c1">document_id:</span> <span class="pl-s1"><span class="pl-pds">'</span>xt.3329967-NAS-2005-OUTLOOK<span class="pl-pds">'</span></span>
+})
+article <span class="pl-k">=</span> <span class="pl-s3">SodaXmlTeam</span>::<span class="pl-s3">Schedule</span>.parse_news(news_document)
+
+<span class="pl-c"># This is now available as an array of values</span>
+puts article.inspect</pre></div>
+
+<h3>
+<a id="standings-parser" class="anchor" href="#standings-parser" aria-hidden="true"><span class="octicon octicon-link"></span></a>Standings Parser</h3>
+
+<div class="highlight highlight-ruby"><pre>soda <span class="pl-k">=</span> <span class="pl-s3">SodaXmlTeam</span>::<span class="pl-s3">Client</span>.<span class="pl-k">new</span>(<span class="pl-s1"><span class="pl-pds">'</span>your_username<span class="pl-pds">'</span></span>, <span class="pl-s1"><span class="pl-pds">'</span>your_password<span class="pl-pds">'</span></span>)
+standings_document <span class="pl-k">=</span> soda.get_document({
+  <span class="pl-c1">sandbox:</span> <span class="pl-c1">true</span>,
+  <span class="pl-c1">document_id:</span> <span class="pl-s1"><span class="pl-pds">'</span>xt.10878197-standings<span class="pl-pds">'</span></span>
+})
+standings <span class="pl-k">=</span> <span class="pl-s3">SodaXmlTeam</span>::<span class="pl-s3">Standings</span>.parse_standings(standings_document)
+
+<span class="pl-c"># This is now available as an array of values</span>
+puts standings.inspect</pre></div>
+
+<h3>
+<a id="league-directory-file-parser" class="anchor" href="#league-directory-file-parser" aria-hidden="true"><span class="octicon octicon-link"></span></a>League Directory File Parser</h3>
+
+<p>This gem includes an executable for parsing files from the <a href="http://private.xmlteam.com/league-directory/">SODA League Directory</a>, which is useful for handling a particular sports league.</p>
+
+<div class="highlight highlight-bash"><pre>$ soda-league-directory <span class="pl-k">~</span>/Downloads/xt.20140505T114154-0400.l.afa.ar.primera-leaguedir.xml
+[{:import_key=<span class="pl-k">&gt;</span><span class="pl-s1"><span class="pl-pds">"</span>o.afa.ar-t.113<span class="pl-pds">"</span></span>, :entity_name=<span class="pl-k">&gt;</span><span class="pl-s1"><span class="pl-pds">"</span>Argentinos Juniors <span class="pl-pds">"</span></span>, :status=<span class="pl-k">&gt;</span>1, :entity_type=<span class="pl-k">&gt;</span><span class="pl-s1"><span class="pl-pds">"</span>l.afa.ar.primera<span class="pl-pds">"</span></span>}, {:import_key=<span class="pl-k">&gt;</span><span class="pl-s1"><span class="pl-pds">"</span>o.afa.ar-t.92<span class="pl-pds">"</span></span>, :entity_name=<span class="pl-k">&gt;</span><span class="pl-s1"><span class="pl-pds">"</span>Arsenal de Sarandi <span class="pl-pds">"</span></span>, :status=<span class="pl-k">&gt;</span>1, :entity_type=<span class="pl-k">&gt;</span><span class="pl-s1"><span class="pl-pds">"</span>l.afa.ar.primera<span class="pl-pds">"</span></span>}, ... ]</pre></div>
+      </section>
+    </div>
+    <footer>
+      <p>Project maintained by <a href="https://github.com/seatshare">seatshare</a></p>
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
