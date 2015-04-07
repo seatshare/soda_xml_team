@@ -1,12 +1,14 @@
 #!/usr/bin/env ruby
 
 require 'nokogiri'
+require 'json'
 
 # Arguments
 file = "#{ARGV[0]}" || nil
+format = "#{ARGV[1]}" || nil
 
 if file.nil? || file == ''
-  puts 'Usage: soda-league-directory path-to-file.xml'
+  puts 'Usage: soda-league-directory path-to-file.xml [json|ruby]'
   Kernel.exit(false)
 end
 
@@ -56,6 +58,9 @@ File.open("#{ARGV[0]}", 'r') do |io|
     final_output << object
   end
 
-  puts final_output.to_s
-
+  if format == '' || format == 'ruby'
+    puts final_output.to_s
+  else
+    puts JSON.generate(final_output).to_s
+  end
 end
