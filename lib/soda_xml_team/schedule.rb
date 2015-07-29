@@ -11,14 +11,11 @@ module SodaXmlTeam
     # - document: a Nokegiri::XML::Document
     def self.parse_schedule(document = {})
       output = []
-
       fail 'Invalid XML schedule.' unless document.is_a? Nokogiri::XML::Document
-
       document.css('schedule sports-event').each do |event|
-
         row = {}
-
         event.css('event-metadata').each do |eventmeta|
+          next if eventmeta['event-key'].empty? || eventmeta['start-date-time'].empty?
           row[:event_key] = eventmeta['event-key']
           row[:start_date_time] = DateTime.parse(eventmeta['start-date-time'])
           row[:time_certainty] = eventmeta['time-certainty']
@@ -38,7 +35,6 @@ module SodaXmlTeam
         end
         output << row
       end
-
       output
     end
   end
