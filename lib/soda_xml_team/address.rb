@@ -79,6 +79,13 @@ module SodaXmlTeam
         # Always return the XML listing
         path << 'stylesheet=sportsml2rss-1.0-s'
 
+        # Select publisher database
+        if options[:publisher].is_a? String
+          path << "publisher-keys=#{options[:publisher]}"
+        else
+          path << 'publisher-keys=sportsforecaster.com'          
+        end
+
       # Get a specific document
       else
         endpoint = '/getDocuments?'
